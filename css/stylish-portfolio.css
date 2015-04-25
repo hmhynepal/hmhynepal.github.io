@@ -1,0 +1,185 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color:#999;
+}
+
+li {
+margin-right:10px;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+  color:#fff;
+  
+  margin-bottom: 1%;  
+  text-shadow: 1px 1px 1px #444;
+}
+
+.vert-text h3 {  
+  margin-bottom: 20px;  
+  color:#fff;
+  text-shadow: 1px 1px 1px #444;
+}
+
+
+
+.toggle {
+  margin: 5px 5px 0 0;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 93%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Intro */
+
+.intro {
+  padding: 50px 0;
+  background:#000;
+}
+
+/* Services */
+
+.services {
+  background: #7fbbda;
+  padding: 10px 0;
+  color: #ffffff;
+}
+
+.service-item {
+  margin-bottom: 10px;
+}
+
+i.service-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+/* Callout */
+
+.callout {
+  color: #ffffff;
+  display: table;
+  height: 210px;
+  width: 100%;
+  background: url(../img/callout.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.callout h1{
+  color:#fff;
+  text-shadow: 1px 1px 1px #444
+
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 10px 0;
+}
+
+.portfolio .col-lg-3 {
+margin-bottom: 20px;
+text-align: center;
+}
+.portfolio-item {
+  margin-bottom: 25px;
+}
+
+.img-portfolio {
+  margin: 0 auto;
+  
+}
+
+
+/* Call to Action */
+
+.call-to-action {
+  color: #ffffff;
+  background: #0a5175;
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+/* Map */
+
+.map {
+  height: 400px;
+}
+
+/* Footer */
+
+footer {
+  padding: 100px 0;  
+}
+
+
+.top-scroll {
+  margin-top: 30px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/bg.jpg) no-repeat center center scroll; 
+  }
+
+  .callout {
+	background: url(../img/callout.jpg) no-repeat center center scroll; 
+  }
+
+  .map {
+	height: 75%;
+  }
+
+}
